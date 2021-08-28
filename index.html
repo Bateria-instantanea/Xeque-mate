@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Projetito 0</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Fonte Poppins 400, 600 e 800 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Meta tags para Whatsapp -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Xeque-Mate">
+    <meta property="og:description" content="Site para ensinar sobre o universo do xadrez">
+    <meta property="og:url" content="https://bateria-instantanea.github.io/Xeque-Mate/">
+    <meta property="og:image" content="https://i.imgur.com/ClDw9D3.png">
+    <meta property="og:image:alt" content="Logo do site">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+</head>
+
+<body>
+    <main>
+        <h1 id="Inicio">Xadrez</h1>
+
+        <section id="Sumario">
+            <ul>
+                <li>
+                    <a href="#Movimentos">Movimentos</a>
+
+                    <ul>
+                        <li><a href="#Peao">Peão</a></li>
+                        <li><a href="#Torre">Torre</a></li>
+                        <li><a href="#Cavalo">Cavalo</a></li>
+                        <li><a href="#Bispo">Bispo</a></li>
+                        <li><a href="#Dama">Dama</a></li>
+                        <li><a href="#Rei">Rei</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Nomenclaturas">Nomenclaturas</a></li>
+                <li><a href="#Plataformas">Plataformas</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="Movimentos">
+            <h2>Movimento das peças</h2>
+            
+            <div id="Peao">
+                <h3>Peão</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/YVvViYS.png" loading="lazy" alt="Movimento do peão 1" width="250" height="250">
+                        <img src="https://i.imgur.com/ZDDEuqg.png" loading="lazy" alt="Movimento do peão 2" width="250" height="250">
+                    </div>
+
+                    <p>
+                        O peão movimenta-se apenas uma casa para frente e só pode capturar peças que estão a uma casa para frente na diagonal.
+                        No seu primeiro movimento do jogo cada peão pode, opcionalmente, avançar duas casas.
+                    </p>
+                </article>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/vJTpr0J.png" loading="lazy" alt="Movimento en passant" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        Se você tiver um peão na 5ª fileira (brancas) ou 4ª (pretas) e um peão contrário se deslocar duas casas em seu primeiro movimento,
+                        ficando do lado de um dos seus peões, você poderá capturá-lo movendo o seu peão uma casa na diagonal.
+                    </p>
+                </article>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/XRJH0ER.png" loading="lazy" alt="Movimento de promoção" width="250" height="250">
+                    </div>
+
+                    <p>
+                        Quando o peão chegar na última fileira o jogador poderá trocá-lo por qualquer peça (geralmente a dama), exceto rei e peão.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Torre">
+                <h3>Torre</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/38pUzsE.png" loading="lazy" alt="Movimento da torre 1" width="250" height="250">
+                    </div>
+
+                    <p>
+                        A torre se move na vertical ou horizontal o quanto quiser, mas não pode pular outras peças, exceto pelo rei no roque.
+                    </p>
+                </article>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/h01ChN6.png" loading="lazy" alt="Movimento roque 1" width="250" height="250">
+                        <img src="https://i.imgur.com/Wt2H9Zc.png" loading="lazy" alt="Movimento roque 2" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        O roque é um movimento de defesa onde se pode mover rei e torre ao mesmo tempo. No roque curto (pelo lado em que a torre está mais perto do rei) o rei se move duas casas
+                        na horizontal para a direita e a torre salta para a proxima casa ao seu lado na esquerda. No roque grande (pelo lado em que a torre está mais longe do rei) o rei se move
+                        duas casas na horizontal para a esquerda e a torre salta para a proxima casa ao seu lado na direita.
+                        O roque só poderá ser feito se as seguintes condições forem respeitadas:
+                        <ul>
+                            <li>Nem o rei nem a torre podem ter sido movidos antes de rocar.</li>
+                            <li>Não há nenhuma peça entre o rei e a torre.</li>
+                            <li>O rei não está em xeque e as casas por onde passará não podem estar atacadas pelo adversário.</li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Cavalo">
+                <h3>Cavalo</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/8AWFNFF.png" loading="lazy" alt="Movimento do cavalo 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        O cavalo se movimenta duas casas em sentido vertical e mais uma na horizontal e vice-versa, formando um "L".
+                        Ele é a única peça que pode pular sobre as outras.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Bispo">
+                <h3>Bispo</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/DxrFFxV.png" loading="lazy" alt="Movimento do bispo 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        O bispo se move no decorrer da diagonal e não pode pular outras peças.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Dama">
+                <h3>Dama</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/F1ZVh2W.png" loading="lazy" alt="Movimento da dama 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        A dama, também conhecida como rainha, movimenta-se na diagonal, vertical ou  horizontal e não pode pular outras peças.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Rei">
+                <h3>Rei</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/6kdKipu.png" loading="lazy" alt="Movimento do rei 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        O rei pode se mover uma casa em qualquer direção que não esteja sendo atacada por uma peça inimiga.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="Nomenclaturas">
+            <h2>Nomenclaturas</h2>   
+
+            <article class="Explicacoes">
+                <div class="Imagens">
+                    <img src="https://i.imgur.com/SPF8Di8.png" loading="lazy" alt="Tabuleiro em branco" width="300" height="300">
+                </div>
+
+                <h3>Nomenclatura das casas no tabuleiro</h3>
+                <p>
+                    Você pode fazer a identificação de cada casa por meio de uma coordenada única. Primeiramente, as colunas são compostas por letras de "a" até "h" minúsculas
+                    a partir da esquerda do jogador com as "brancas". Então a coluna "a" fica à esquerda do branco e à direita do preto.
+                    Já as linhas são numeradas de 1 a 8, começando pela primeira linha das peças do branco e terminando na primeira linha de peças do preto. Cada peça do tabuleiro
+                    tem sua própria identificação, por exemplo as torres brancas sempre começam o jogo nas casas (a1) e (a8).
+                </p>
+
+                <hr>
+
+                <h3>Nomenclatura das peças</h3>
+                <p>
+                    Cada tipo de peça (exceto o peão) é identificada por uma letra maiúscula, geralmente a primeira letra do nome daquela peça na língua falada
+                    pelo jogador que estiver anotando. Em português, os jogadores usam <b>R</b> para o rei, <b>D</b> para dama (pois R de rainha ficaria igual o do rei),
+                    <b>T</b> para a torre, <b>B</b> para o bispo, e <b>C</b> para o cavalo.
+                </p>
+
+                <hr>
+
+                <h3>Notação para as jogadas</h3>
+                <p>
+                    Cada jogada é indicada pela letra da peça + a coordenada da casa de destino. Exemplos: <b>Be2</b> (Bispo se move para e2), <b>Df7</b> (Dama se move para f7), 
+                    <b>c5</b> (peão se move para c5). O peão é o unico que não tem uma letra que o indentifica, então somente escrevemos para qual casa ele vai nas jogadas.
+                </p>
+
+                <hr>
+
+                <h3>Notação para as capturas</h3>
+                <p>
+                    Quando uma peça faz uma captura, um x é colocado entre a inicial e a casa de destino. Por exemplo, <b>Cxc5</b> (Cavalo captura a peça em c5). Quando um peão faz uma captura, 
+                    a coluna da qual o peão partiu é usada no lugar da inicial da peça. Por exemplo, <b>fxg6</b> (peão na coluna "f" captura a peça em g6). No caso do movimento especial 'En Passant',
+                    as capturas são especificadas pela casa de partida do peão que capturou + o x + a casa para qual ele se move acompanhados pela notação "e.p".
+                    Exemplo: <b>exf6(e.p)</b> (peão na coluna "e" captura peça se movendo para f6 por 'En Passant').
+                </p>
+
+                <hr>
+
+                <h3>Notação de desambiguação</h3>
+                <p>
+                    Caso duas peças idênticas possam se mover para a mesma casa, a inicial da peça é seguida por:
+                    <ul>
+                        <li>Quando ambas as peças estão na mesma linha, <b>a coluna de saída.</b></li>
+                        <li>Quando ambas as peças estão na mesma coluna, <b>a linha de saída.</b></li>
+                    </ul>
+                    Exemplo: temos dois cavalos, em b1 e d1 respectivamente, ambos podendo se mover para c3. Para resolver esse problema usamos <b>Cbc3</b> caso for mover o cavalo de b1
+                    e <b>Cdc3</b> caso for mover o cavalo de d1.
+                </p>
+
+                <hr>
+
+                <h3>Notação para promoção de peão</h3>
+                <p>
+                    Quando um peão chega à última linha, alcançando a promoção, a peça escolhida é indicada após a jogada,
+                    por exemplo <b>e1D</b> (Dama) e <b>b8T</b> (Torre).
+                </p>
+
+                <hr>
+
+                <h3>Notação para o Roque</h3>
+                <p>
+                    O roque é indicado pela notação especial O-O para o roque curto e O-O-O para o roque longo.
+                </p>
+
+                <hr>
+
+                <h3>Notação Xeque e Xeque-Mate</h3>
+                <p>
+                    Uma jogada que coloca o rei do oponente em xeque pode ter a notação "+" adicionada ao final do movimento, como Th8+ (Torre dá xeque em h8).
+                    O xeque-mate pode ser indicado por "#" adicionado ao final do movimento, como Df6# (Dama dá xeque-mate em f6). 
+                    A palavra 'mate' escrita ao final da notação também é aceita.
+                </p>
+
+                <hr>
+
+                <h3>Lance Bom e Lance Ruim</h3>
+                <p>
+                    O símbolo "!" adicionado à notação indica que o lance foi bom e "?", um lance ruim.
+                </p>
+
+                <hr>
+
+                <h3>Fim de partida</h3>
+                <p>
+                    A notação 1-0 ao final das jogadas indica que o jogador branco ganhou. 0-1 indica que o preto ganhou. ½-½ indica um empate. 
+                </p>
+            </article>
+        </section>
+
+        <hr>
+            
+        <section id="Plataformas">
+            <h2>Plataformas para jogar xadrez</h2>
+            
+            <article class="Explicacoes">
+                <a href="https://www.chess.com/" target="_blank" rel="noreferrer noopener">
+                   <h3>Chess.com</h3>
+                   <img src="img/chess.png" alt="chess" width="40" height="40">
+                </a>
+                <p>
+                    O <a href="https://www.chess.com/" target="_blank" rel="noreferrer noopener">Chess.com</a> é um servidor na internet dedicado ao xadrez com milhões de jogadores ao redor do mundo.
+                    Nele você pode jogar online, contra engines, participar de torneios e desafiar seus amigos, além de aprender
+                    muito sobre o jogo com análises detalhadas e vários problemas de posições para resolver.
+                </p>
+            </article>
+
+            <hr>
+            
+            <article class="Explicacoes">
+                <a href="https://lichess.org/" target="_blank" rel="noreferrer noopener">
+                    <h3>Lichess.org</h3>
+                    <img src="img/lichess.png" alt="lichess" width="40" height="40">
+                 </a>
+                <p>
+                    O <a href="https://lichess.org/" target="_blank" rel="noreferrer noopener">Lichess.org</a> é uma plataforma online e gratuita focada em jogos de xadrez. Jogue contra
+                    players online com o tempo de partida que quiser, dispute torneios e analise partidas para aprimorar suas habilidades no xadrez.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <a href="#Inicio" id="Topo">
+            <img src="img/up.svg" alt="Topo" width="40" height="40">
+        </a>
+    </main>
+
+    <footer>
+        <div id="Creditos">
+            <h3>Créditos:</h3>
+
+            <ul>
+                <li><a href="https://www.chess.com/home" target="_blank" rel="noreferrer noopener">Chess.com</a></li>
+                <li><a href="https://lichess.org" target="_blank" rel="noreferrer noopener">Lichess</a></li>
+                <li><a href="https://fonts.google.com" target="_blank" rel="noreferrer noopener">Google fonts</a></li>
+                <li>
+                    Ícones feitos por <a href="https://www.freepik.com" title="Freepik" target="_blank" rel="noreferrer noopener">Freepik</a>
+                    de <a href="https://www.flaticon.com/br/" title="Flaticon" target="_blank" rel="noreferrer noopener">www.flaticon.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="Desenvolvedores">
+            <h3>Desenvolvedores:</h3>
+
+            <ul>
+                <li>
+                    Brian Matheus:
+                    <a href="https://www.instagram.com/_brianmatheus_/" target="_blank" rel="noreferrer noopener" title="_brianmatheus_">[Instagram]</a> +
+                    <a href="https://github.com/BrianMath" target="_blank" rel="noreferrer noopener" title="BrianMath">[Github]</a>
+                </li>
+            
+                <li>
+                    Vitor Hugo:
+                    <a href="https://www.instagram.com/vhf273/" target="_blank" rel="noreferrer noopener" title="vhf273">[Instagram]</a> +
+                    <a href="https://github.com/Bateria-instantanea" target="_blank" rel="noreferrer noopener" title="Bateria-instantanea">[Github]</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
