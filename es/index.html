@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Projetito 0</title>
+	
+	<!-- Versões traduzidas -->
+	<link rel="alternate" hreflang="es" href="https://bateria-instantanea.github.io/Xeque-mate/es/index.html">
+	<link rel="alternate" hreflang="pt-br" href="https://bateria-instantanea.github.io/Xeque-mate/index.html">
+	<link rel="alternate" hreflang="x-default" href="https://bateria-instantanea.github.io/Xeque-mate/index.html">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Verificação de proprietário (para indexação no Google) -->
+	<meta name="google-site-verification" content="dOoVchnnVlzJz77tsuXGXCmCwkpt1cC9UFJWLKRhOBQ" />
+	<meta name="google-site-verification" content="RnSylDubdp6pdts9Q6fxWsNJtdW5m_D2-p_ktTG3mzs" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
+    <!-- Fonte Poppins 400, 600 e 800 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Meta tags para Whatsapp -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jaque mate">
+    <meta property="og:description" content="Sitio para enseñar sobre el universo del ajedrez">
+    <meta property="og:url" content="https://bateria-instantanea.github.io/Xeque-Mate/es/">
+    <meta property="og:image" content="https://i.imgur.com/ClDw9D3.png">
+    <meta property="og:image:alt" content="Logotipo del sitio web">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D18ZMM2030"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-D18ZMM2030');
+	</script>
+</head>
+
+<body>
+	<main>
+        <h1 id="Inicio">Ajedrez</h1>
+
+        <section id="Sumario">
+            <ul>
+                <li>
+                    <a href="#Movimentos">Movimientos</a>
+
+                    <ul>
+                        <li><a href="#Peao">Peón</a></li>
+                        <li><a href="#Torre">Torre</a></li>
+                        <li><a href="#Cavalo">Caballo</a></li>
+                        <li><a href="#Bispo">Alfil</a></li>
+                        <li><a href="#Dama">Dama</a></li>
+                        <li><a href="#Rei">Rey</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Nomenclaturas">Nomenclaturas</a></li>
+                <li><a href="#Plataformas">Plataformas</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="Movimentos">
+            <h2>Movimiento de piezas</h2>
+            
+            <div id="Peao">
+                <h3>Peón</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/YVvViYS.png" loading="lazy" alt="Movimiento del peón 1" width="250" height="250">
+                        <img src="https://i.imgur.com/ZDDEuqg.png" loading="lazy" alt="Movimiento del peón 2" width="250" height="250">
+                    </div>
+
+                    <p>
+                        El peón se mueve solo una casilla hacia adelante y solo puede capturar piezas que estén diagonalmente hacia adelante una casilla.
+						En su primer movimiento, cada peón puede avanzar opcionalmente dos casillas.
+                    </p>
+                </article>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/vJTpr0J.png" loading="lazy" alt="Captura en passant" width="250" height="250">
+                    </div>
+                    
+                    <p>
+						Si tienes un peón en la quinta fila (blancas) o cuarta (negras) y tu oponente mueve un peón dos casillas en su primer movimiento,
+						y este queda al lado de tu peón, puedes capturarlo moviendo tu peón una casilla en diagonal. Esta captura es llamada: Captura en passant.
+                    </p>
+                </article>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/XRJH0ER.png" loading="lazy" alt="Movimiento de promoción" width="250" height="250">
+                    </div>
+
+                    <p>
+                        Cuando el peón llega a la última fila, el jugador puede cambiarlo por cualquier pieza (generalmente por una reina), excepto por un rey o un peón. Esto es llamado coronación o promoción.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Torre">
+                <h3>Torre</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/38pUzsE.png" loading="lazy" alt="Movimiento de torre 1" width="250" height="250">
+                    </div>
+
+                    <p>
+                        La torre se mueve vertical u horizontalmente tanto como quiera, pero no puede saltar sobre otras piezas, excepto el rey del enroque.
+                    </p>
+                </article>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/h01ChN6.png" loading="lazy" alt="Movimiento enroque 1" width="250" height="250">
+                        <img src="https://i.imgur.com/Wt2H9Zc.png" loading="lazy" alt="Movimiento enroque 2" width="250" height="250">
+                    </div>
+                    
+                    <p>
+						El enroque es un movimiento defensivo en el que puedes mover el rey y la torre al mismo tiempo. En el enroque corto (en el lado donde la torre está más cerca del rey), el rey se mueve dos casillas
+						a la derecha horizontalmente y la torre salta a la siguiente casilla quedando a la izquierda. En el enroque largo (en el lado donde la torre está más alejada del rey), el rey se mueve dos casillas
+						horizontalmente a la izquierda y la torre salta a la siguiente casilla quedando a la derecha del rey. 
+						El enroque solo se puede realizar si se cumplen las siguientes condiciones:
+                        <ul>
+                            <li>Ni el rey ni la torre debieron haberse movido antes del enroque.</li>
+                            <li>No hay piezas entre el rey y la torre.</li>
+                            <li>El rey no está en jaque y las casillas por las que pasará no pueden estar atacadas por el oponente.</li>
+                        </ul>
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Cavalo">
+                <h3>Caballo</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/8AWFNFF.png" loading="lazy" alt="Movimiento de caballo 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+						El caballo se mueve dos cuadrados en vertical y uno más en horizontal, formando una "L".
+						Es la única pieza que puede saltar por encima de las demás.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Bispo">
+                <h3>Alfil</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/DxrFFxV.png" loading="lazy" alt="Movimiento del alfil 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        El alfil se mueve a lo largo de las diagonales del tablero y no puede saltar sobre otras piezas.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Dama">
+                <h3>Dama</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/F1ZVh2W.png" loading="lazy" alt="Movimiento de dama 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        La dama, también conocida como reina, se mueve en diagonal, vertical y horizontalmente y no puede saltar sobre otras piezas.
+                    </p>
+                </article>
+            </div>
+
+            <hr>
+
+            <div id="Rei">
+                <h3>Rey</h3>
+
+                <article class="Explicacoes">
+                    <div class="Imagens">
+                        <img src="https://i.imgur.com/6kdKipu.png" loading="lazy" alt="Movimiento del rey 1" width="250" height="250">
+                    </div>
+                    
+                    <p>
+                        El rey solo puede mover una casilla en cualquier dirección que no esté siendo atacada por una pieza enemiga.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="Nomenclaturas">
+            <h2>Nomenclaturas</h2>   
+
+            <article class="Explicacoes">
+                <div class="Imagens">
+                    <img src="https://i.imgur.com/SPF8Di8.png" loading="lazy" alt="Tablero vacío" width="300" height="300">
+                </div>
+
+                <h3>Nomenclatura de las casillas del tablero</h3>
+                <p>
+					Se puede identificar cada casilla usando una coordenada única. Primero, las columnas están formadas por letras minúsculas de la "a" a la "h".
+					Entonces, la columna "a" está a la izquierda del jugador con piezas blancas y a la derecha del jugador con piezas negras.
+					Las líneas están numeradas del 1 al 8, comenzando con la primera línea de las piezas blancas y terminando con la primera línea de las piezas negras. Cada pieza del tablero
+					tiene su propia identificación, por ejemplo, las torres blancas siempre comienzan el juego en las casillas (a1) y (a8).
+                </p>
+
+                <hr>
+
+                <h3>Nomenclatura de las piezas</h3>
+                <p>
+					Cada pieza (excepto el peón) se identifica con una letra mayúscula, generalmente la primera letra del nombre de esa pieza en el idioma que habla
+					el jugador que toma notas. En español, los jugadores usan <b>R</b> para rey, <b>D</b> para la dama (porque si usamos la R con la reina podríamos confurnirnos con el rey),
+					<b>T</b> para la torre, <b>A</b> para el alfil y la <b>C</b> para el caballo.
+                </p>
+
+                <hr>
+
+                <h3>Notación para las partidas</h3>
+                <p>
+					Cada movimiento está indicado por la letra del mosaico + la coordenada de la casilla de destino. Ejemplos: <b>Ae2</b> (el alfil se mueve a e2), <b>Df7</b> (la reina se mueve a f7),
+					<b>c5</b> (el peón se mueve a c5). Como el peón es el único que no tiene una letra que lo identifique, simplemente escribimos a qué casilla va.
+                </p>
+
+                <hr>
+
+                <h3>Notación para las capturas</h3>
+                <p>
+					Cuando una pieza captura, se coloca una x entre el la casilla a la que va y la pieza que captura. Por ejemplo, <b>Cxc5</b> (el caballo captura la pieza en c5). Cuando un peón captura,
+					se utiliza la columna de la que salió como referencia. Por ejemplo, <b>fxg6</b> (el peón en la columna "f" captura la pieza en g6). En el caso de la 'Captura en Passant',
+					la captura se especifica mediante la casilla inicial del peón que capturó + la x + la casilla a la que se mueve acompañada de la notación "e.p".
+					Ejemplo: <b>exf6(e.p)</b> (el peón en la columna "e" captura la pieza moviéndose hacia f6 por 'Captura En Passant').
+                </p>
+
+                <hr>
+
+                <h3>Notación de desambiguación</h3>
+                <p>
+                    Si dos piezas idénticas pueden moverse al mismo cuadrado, la inicial de la pieza va seguida de:
+                    <ul>
+                        <li>Cuando ambas piezas están en la misma fila, <b>la columna de salida.</b></b></li>
+                        <li>Cuando ambas piezas están en la misma columna, <b>la línea de salida.</b></li>
+                    </ul>
+					Ejemplo: tenemos dos caballos, en b1 y d1 respectivamente, los cuales pueden moverse a c3. Para resolver este problema usamos <b>Cbc3</b> si se mueve el caballo de b1
+					y <b>Cdc3</b> si se mueve el caballo de d1.
+                </p>
+
+                <hr>
+
+                <h3>Notación para la promoción de peones</h3>
+                <p>
+					Cuando un peón llega a la última fila, alcanzando la promoción, la pieza elegida se indica después de la jugada,
+					por ejemplo, <b>e1D</b> (Dama) y <b>b8T</b> (Torre).
+                </p>
+
+                <hr>
+
+                <h3>Notación para el Enroque</h3>
+                <p>
+					El enroque se indica con la notación especial O-O para enroque corto y O-O-O para enroque largo.
+                </p>
+
+                <hr>
+
+                <h3>Notación para el Jaque y Jaque Mate</h3>
+                <p>
+					Una jugada que pone al rey del oponente en jaque tiene la notación "+" agregada al final de la jugada, como Th8+ (la torre da jaque al rey en h8).
+					El jaque mate se indica con un "#" añadido al final del movimiento, como Df6# (la dama da jaque mate al rey enemigo en f6).
+					También se acepta la palabra 'mate' escrita al final de la notación.
+                </p>
+
+                <hr>
+
+                <h3>Buen movimiento y Mal movimiento</h3>
+                <p>
+                    El símbolo "!" agregado a la notación indica que el momiento fue bueno y la notación para un mal moviento es "?".
+                </p>
+
+                <hr>
+
+                <h3>Fin de la partida</h3>
+                <p>
+                    La notación 1-0 al final de las jugadas indica que el jugador con blancas ha ganado. 0-1 indica que el jugador con negras ha ganado. ½-½ indica un empate.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+            
+        <section id="Plataformas">
+            <h2>Plataformas para jugar al ajedrez</h2>
+            
+            <article class="Explicacoes">
+                <a href="https://www.chess.com/" target="_blank" rel="noreferrer noopener">
+                   <h3>Chess.com</h3>
+                   <img src="../img/chess.png" alt="chess" width="40" height="40">
+                </a>
+                <p>
+					<a href="https://www.chess.com/" target="_blank" rel="noreferrer noopener">Chess.com</a> es un servidor de Internet dedicado al ajedrez con millones de jugadores en todo el mundo.
+					En él podrás jugar online, contra motores, participar en torneos y retar a tus amigos, además de aprender
+					mucho sobre el juego con análisis detallados y diversos problemas de posición a resolver.
+                </p>
+            </article>
+
+            <hr>
+            
+            <article class="Explicacoes">
+                <a href="https://lichess.org/" target="_blank" rel="noreferrer noopener">
+                    <h3>Lichess.org</h3>
+                    <img src="../img/lichess.png" alt="lichess" width="40" height="40">
+                 </a>
+                <p>
+					<a href="https://lichess.org/" target="_blank" rel="noreferrer noopener">Lichess.org</a> es una plataforma en línea gratuita centrada en juegos de ajedrez. Juega contra
+					jugadores en línea todo el tiempo que quieras, juega torneos y analiza partidas para mejorar tus habilidades de ajedrez.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <a href="#Inicio" id="Topo">
+            <img src="../img/up.svg" alt="Arriba" width="40" height="40">
+        </a>
+    </main>
+
+    <footer>
+        <div id="Creditos">
+            <h3>Créditos:</h3>
+
+            <ul>
+                <li><a href="https://www.chess.com/home" target="_blank" rel="noreferrer noopener">Chess.com</a></li>
+                <li><a href="https://lichess.org" target="_blank" rel="noreferrer noopener">Lichess</a></li>
+                <li><a href="https://fonts.google.com" target="_blank" rel="noreferrer noopener">Google fonts</a></li>
+                <li>
+                    Iconos creados por <a href="https://www.freepik.com" title="Freepik" target="_blank" rel="noreferrer noopener">Freepik</a>
+                    de <a href="https://www.flaticon.com/br/" title="Flaticon" target="_blank" rel="noreferrer noopener">www.flaticon.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="Desenvolvedores">
+            <h3>Desarrolladores:</h3>
+
+            <ul>
+                <li>
+                    Brian Matheus:
+                    <a href="https://www.instagram.com/_brianmatheus_/" target="_blank" rel="noreferrer noopener" title="_brianmatheus_">[Instagram]</a> +
+                    <a href="https://github.com/BrianMath" target="_blank" rel="noreferrer noopener" title="BrianMath">[Github]</a>
+                </li>
+            
+                <li>
+                    Vitor Hugo:
+                    <a href="https://www.instagram.com/vhf273/" target="_blank" rel="noreferrer noopener" title="vhf273">[Instagram]</a> +
+                    <a href="https://github.com/Bateria-instantanea" target="_blank" rel="noreferrer noopener" title="Bateria-instantanea">[Github]</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

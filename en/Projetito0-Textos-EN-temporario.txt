@@ -1,0 +1,108 @@
+Site: https://bateria-instantanea.github.io/Xeque-mate/en/
+
+- EN:
+
+<Chess>
+
+* Movement
+    * Pawn
+    * Rook
+    * Knight
+    * Bishop
+    * Queen
+    * King
+* Nomenclatures
+* Platforms
+------------------------------------------------- ---------
+<Pieces moves>
+
+Pawn:
+The pawn moves only one square forward and can only capture pieces that are diagonally forward one square. On their first game move, each pawn can optionally advance two squares.
+If you have a pawn on the 5th row (white) or 4th (black) and an opposing pawn moves two squares on its first move, standing next to one of your pawns, you can capture it by moving your pawn one square on the diagonal.
+When the pawn reaches the last row the player can exchange it for any piece (usually the queen), except king and pawn.
+------------------------------------------------- ---------
+Rook:
+The rook moves vertically or horizontally as much as it wants, but cannot jump over other pieces, except for the king on castling.
+Castling is a defensive move where you can move king and rook at the same time. On short castling (on the side where the rook is closest to the king) the king moves two squares to the right horizontally and the rook jumps to the next square on the king's left. On large castling (on the side where the rook is farthest from the king) the king moves two squares horizontally to the left and the rook jumps to the next square on the king's right. Castling can only be done if the following conditions are met:
+* Neither king nor rook could have been moved before castling.
+* There are no pieces between the king and the rook.
+* The king is not in check and the squares it will pass through cannot be attacked by the opponent.
+------------------------------------------------- ---------
+Knight:
+The knight moves two squares vertically and one more horizontally and vice versa, forming an "L". It is the only piece that can jump over the others.
+------------------------------------------------- ---------
+Bishop:
+The bishop moves along the diagonal and cannot jump over other pieces.
+------------------------------------------------- ---------
+Queen:
+The queen moves diagonally, vertically or horizontally and cannot jump over other pieces.
+------------------------------------------------- ---------
+King:
+The king can move one square in any direction that is not being attacked by an enemy piece.
+------------------------------------------------- ---------
+<Nomenclatures>
+
+Nomenclature of squares on the board:
+You can identify each square using a unique coordinate. First, the columns are named by lowercase letters from "a" to "h" starting from the left of the player with "white". So column "a" is to the left of white and to the right of black. The rows are numbered from 1 to 8, starting from the first line of the white pieces and ending on the first line of black pieces. Each piece on the board has its own identification, for example the white rooks always start the game on the squares (a1) and (a8).
+------------------------------------------------- ---------
+Nomenclature of pieces:
+Each type of piece (except the pawn) is identified by a capital letter, usually the first letter of that pieces's name in the language spoken by the player taking notes. In English, players use K for king, Q for queen, R for rook, B for bishop, and N for knight (because K of knight would be the same of king's).
+------------------------------------------------- ---------
+Notation for moves:
+Each move is indicated by the piece's letter + the coordinate of the destination square. Examples: Be2 (Bishop moves to e2), Qf7 (Queen moves to f7), c5 (Pawn moves to c5). The pawn is the only one that doesn't have a letter that identifies it, so we just write which square it goes to in the moves.
+------------------------------------------------- ---------
+Notation for captures:
+When a piece takes a capture, an x ​​is placed between the initial and the target square. For example, Nxc5 (Knight captures the piece at c5). When a pawn takes a capture, the column from which the pawn departed is used in place of the piece's initial. For example, fxg6 (pawn in column "f" captures the piece at g6). In the case of the 'En Passant' special move, captures are specified by the starting square of the pawn that captured + the x + the square to which it moves followed by the notation "e.p". Example: exf6(e.p) (pawn in column "e" captures piece moving to f6 by 'En Passant').
+------------------------------------------------- ---------
+Disambiguation notation:
+If two identical pieces can move to the same square, the piece's initial is followed by:
+* When both pieces are on the same row, the starting column.
+* When both pieces are in the same column, the starting row.
+Example: we have two knights, on b1 and d1 respectively, both being able to move to c3. To solve this problem we use Nbc3 if moving b1's knight and Ndc3 if moving d1's knight.
+------------------------------------------------- ---------
+Notation for pawn promotion:
+When a pawn reaches the last row, reaching promotion, the chosen piece is indicated after the move, for example e1Q (Queen) and b8R (Rook).
+------------------------------------------------- ---------
+Notation for castling:
+Castling is indicated by the special notation O-O for short castling and O-O-O for long castling.
+------------------------------------------------- ---------
+Check and checkmate notation:
+A move that puts the opponent's king in check can have the "+" notation added to the end of the move, such as Rh8+ (Rook checks at h8). Checkmate can be indicated by a "#" added to the end of the move, such as Qf6# (Queen checkmates at f6). The word 'mate' written at the end of the notation is also accepted.
+------------------------------------------------- ---------
+Good Move and Bad Move:
+The symbol "!" added to the notation indicates the move was good and "?", a bad move.
+------------------------------------------------- ---------
+End of match:
+The 1-0 notation at the end of the match indicates that the white player has won. 0-1 indicates that black has won. ½-½ indicates a tie.
+------------------------------------------------- ---------
+<Platforms for playing chess>
+
+Chess.com
+
+Chess.com is an internet server dedicated to chess with millions of players around the world. In it you can play online, against engines, participate in tournaments and challenge your friends, as well as learn a lot about the game with detailed analysis and various position problems to solve.
+------------------------------------------------- ---------
+Lichess.org
+
+Lichess.org is a free online platform focused on chess games. Play against players online for as long as you want, compete in tournaments and analyze matches to improve your chess skills.
+------------------------------------------------- ---------
+Credits:
+
+Icons made by Freepik from www.flaticon.com
+
+Developers:
+------------------------------------------------- ---------
+- Checkmate
+- Site to teach about the chess universe
+- Website logo
+
+- Pawn's movement
+- En passant movement
+- Promotion movement
+- Rook movement
+- Castling movement
+- Knight's movement
+- Bishop's movement
+- Queen's movement
+- King's movement
+- Blank board
+- Top (beginning)
